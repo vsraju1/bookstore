@@ -1,0 +1,9 @@
+.mainPageContainer{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}

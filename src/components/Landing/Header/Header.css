@@ -1,0 +1,54 @@
+/* utility classes  */
+
+
+/* utility classes  */
+
+
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+}
+.header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+}
+
+.header__logo h1{
+    font-size: 3rem;
+}
+.headerNavlinks ul{
+    flex-basis: 1;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.headerNavlinks ul li{
+    font-size: 18px;
+}
+.headerNavlinks ul li .header__navlink{
+    color: black;
+    position: relative;
+}
+.headerNavlinks ul li .header__navlink::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    bottom: -2px;
+    left: 0;
+    background-color: black;
+    transition: all 0.25s ease-out;
+}
+.headerNavlinks ul li .header__navlink:hover::after{
+    width: 100%;
+}
+
+
+
+
